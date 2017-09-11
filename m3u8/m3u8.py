@@ -32,7 +32,7 @@ def fun2(url, alias):
 
 
 #fun2("www.baidu.com", "baidu")
-#jinxingbeifen
+#在每月初进行备份
 copy_time=time.strftime('%d',time.localtime(time.time()))
 if copy_time == 1:
     shutil.copy("file1.log", "file2.log")
